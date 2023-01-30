@@ -16,11 +16,6 @@
     color: purple;
     }
 
-    .header {
-      background: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg") 50% no-repeat;
-      background-size: contain
-    }
-
     /* Add styling to center everything */
     .container {
       display: flex;
@@ -62,7 +57,7 @@
 
     @media (max-width: 721px) {
       footer p {
-        margin-top: 350px;
+        margin-top: 1000px;
         font-size: 20px;
         text-align: center;
       }
