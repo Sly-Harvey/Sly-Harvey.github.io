@@ -68,7 +68,7 @@
         /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
         background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg");
         height: auto;
-        background-size: cover;
+        background-size: contain;
         animation: backgroundAnimate 30s linear infinite;
         overflow: visible;
       }
