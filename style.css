@@ -55,15 +55,13 @@
     }
     /* Add styling to footer */
 
-    @media (max-width: 721px) {
-      footer p {
-        margin-top: 1000px;
-        font-size: 20px;
-        text-align: center;
-      }
+    footer p {
+      margin-top: 1000px;
+      font-size: 20px;
+      text-align: center;
     }
 
-    @media (min-width: 722px) {
+    @media (min-width: 768px) {
       footer p {
         margin-top: 140px;
         font-size: 20px;
