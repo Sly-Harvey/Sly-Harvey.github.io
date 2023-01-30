@@ -1,0 +1,133 @@
+    /* Add styling to links */
+    a:link {
+    text-decoration: none;
+    }
+
+    a:visited {
+    text-decoration: none;
+    }
+
+    a:hover {
+    text-decoration: underline;
+    }
+
+    a:active {
+    text-decoration: underline;
+    color: purple;
+    }
+    /* Add styling to center everything */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    /* Add styling to header */
+    header h1 {
+      margin-top: 50px;
+      font-size: 50px;
+      text-align: center;
+    }
+    /* Add styling to project section */
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .project {
+      width: 300px;
+      height: 300px;
+      background-color: lightgray;
+      margin: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+      animation: zoomIn 1s ease;
+    }
+    @keyframes zoomIn {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+    /* Add styling to footer */
+    footer p {
+      margin-top: 205px;
+      font-size: 20px;
+      text-align: center;
+    }
+    /* Add styling for background */
+    body {
+      /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
+      background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg");
+      background-size: cover;
+      animation: backgroundAnimate 30s linear infinite;
+      overflow: hidden;
+    }
+
+    #harveys-projects {
+      color: #008cff;
+      font-style: italic;
+    }
+    #github-link {
+      color: #5eff00;
+    }
+    #youtube-link {
+      color: #5eff00;
+      position: relative;
+      top: -10px;
+    }
+    #email-address {
+      color: #5eff00;
+      position: relative;
+      top: -25px;
+    }
+    #github-icon {
+        display: inline-block;
+        background-image: url(https://cdn.icon-icons.com/icons2/2406/PNG/512/github_git_icon_145985.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40px;
+        width: 40px;
+        margin-right: 0px;
+        margin-bottom: -10px;
+      }
+    #youtube-icon {
+        display: inline-block;
+        background-image: url(https://cdn.icon-icons.com/icons2/2699/PNG/512/youtube_logo_icon_168737.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+        margin-bottom: -5px;
+      }
+    #gmail-icon {
+        display: inline-block;
+        background-image: url(https://cdn.icon-icons.com/icons2/272/PNG/512/Gmail_29991.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+        margin-bottom: -5px;
+      }
+    #copy {
+      color: #ffffff;
+      position: relative;
+      top: -30px;
+    }
+
+    @keyframes backgroundAnimate {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
