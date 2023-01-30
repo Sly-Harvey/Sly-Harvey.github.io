@@ -53,28 +53,33 @@
         transform: scale(1);
       }
     }
-    /* Add styling to footer */
-
-    footer p {
-      margin-top:350px;
-      font-size: 20px;
-      text-align: center;
-    }
-    /* Add styling for background */
-    body {
-      /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
-      background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1080x1920.jpg");
-      background-size: cover;
-      animation: backgroundAnimate 30s linear infinite;
-      overflow: hidden;
-    }
-
-    @media (min-width: 768px) {
+    @media (max-width: 768px)
+    {
+      /* Add styling to footer */
       footer p {
-        margin-top: 140px;
+        margin-top:350px;
         font-size: 20px;
         text-align: center;
       }
+      /* Add styling for background */
+      body {
+        /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
+        background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1080x1920.jpg");
+        background-size: cover;
+        animation: backgroundAnimate 30s linear infinite;
+        overflow: hidden;
+      }
+    }
+    
+
+    @media (min-width: 768px) {
+      /* Add styling to footer */
+      footer p {
+        margin-top: 150px;
+        font-size: 20px;
+        text-align: center;
+      }
+      /* Add styling for background */
       body {
         /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
         background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg");
