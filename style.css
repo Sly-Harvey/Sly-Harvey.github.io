@@ -68,7 +68,7 @@
         /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
         background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg");
         height: auto;
-        background-size: auto;
+        background-size: cover;
         animation: backgroundAnimate 30s linear infinite;
         overflow: scroll;
       }
@@ -100,21 +100,28 @@
     #harveys-projects {
       color: #008cff;
       font-style: italic;
+      position: relative;
+      text-align: center;
     }
     #github-link {
       color: #5eff00;
+      position: relative;
+      text-align: center;
     }
     #youtube-link {
       color: #5eff00;
       position: relative;
+      text-align: center;
       top: -10px;
     }
     #email-address {
       color: #5eff00;
       position: relative;
+      text-align: center;
       top: -25px;
     }
     #github-icon {
+        position: relative;
         display: inline-block;
         background-image: url(https://cdn.icon-icons.com/icons2/2406/PNG/512/github_git_icon_145985.png);
         background-repeat: no-repeat;
@@ -125,6 +132,7 @@
         margin-bottom: -10px;
       }
     #youtube-icon {
+        position: relative;
         display: inline-block;
         background-image: url(https://cdn.icon-icons.com/icons2/2699/PNG/512/youtube_logo_icon_168737.png);
         background-repeat: no-repeat;
@@ -135,6 +143,7 @@
         margin-bottom: -5px;
       }
     #gmail-icon {
+        position: relative;
         display: inline-block;
         background-image: url(https://cdn.icon-icons.com/icons2/272/PNG/512/Gmail_29991.png);
         background-repeat: no-repeat;
