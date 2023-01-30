@@ -60,7 +60,7 @@
     }
     /* Add styling to footer */
 
-    @media (max-width: 720px) {
+    @media (max-width: 721px) {
       footer p {
         margin-top: 350px;
         font-size: 20px;
@@ -68,7 +68,7 @@
       }
     }
 
-    @media (min-width: 481px) {
+    @media (min-width: 722px) {
       footer p {
         margin-top: 140px;
         font-size: 20px;
