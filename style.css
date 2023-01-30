@@ -57,7 +57,7 @@
     {
       /* Add styling to footer */
       footer p {
-        margin-top:350px;
+        margin-top: 350px;
         font-size: 20px;
         text-align: center;
       }
@@ -69,10 +69,16 @@
         animation: backgroundAnimate 30s linear infinite;
         overflow: hidden;
       }
+
+      img {
+        width: auto ;
+        max-width: 100% ;
+        height: auto ;
+      }
     }
     
 
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
       /* Add styling to footer */
       footer p {
         margin-top: 150px;
@@ -87,12 +93,6 @@
         animation: backgroundAnimate 30s linear infinite;
         overflow: hidden;
       }
-    }
-
-    img {
-      width: auto ;
-      max-width: 100% ;
-      height: auto ;
     }
 
     #harveys-projects {
