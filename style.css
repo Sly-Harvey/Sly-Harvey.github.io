@@ -53,10 +53,21 @@
       }
     }
     /* Add styling to footer */
-    footer p {
-      margin-top: 320px;
-      font-size: 20px;
-      text-align: center;
+
+    @media (max-width: 480px) {
+      footer p {
+        margin-top: 350px;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+
+    @media (min-width: 481px) {
+      footer p {
+        margin-top: 140px;
+        font-size: 20px;
+        text-align: center;
+      }
     }
     /* Add styling for background */
     body {
