@@ -54,47 +54,7 @@
       }
     }
 
-    @media (max-width: 768px)
-    {
-      /* Add styling to footer */
-      footer p {
-        margin-top: 150px;
-        font-size: 20px;
-        text-align: center;
-      }
-
-      /* Add styling for background */
-      body {
-        /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
-        background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg");
-        background-size: cover;
-        animation: backgroundAnimate 30s linear infinite;
-        overflow: visible;
-      }
-
-      img {
-        width: auto ;
-        max-width: 100% ;
-        height: auto;
-      }
-    }
-
-    @media (min-width: 769px) {
-      /* Add styling to footer */
-      footer p {
-        margin-top: 150px;
-        font-size: 20px;
-        text-align: center;
-      }
-      /* Add styling for background */
-      body {
-        /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
-        background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg");
-        background-size: cover;
-        animation: backgroundAnimate 30s linear infinite;
-        overflow: hidden;
-      }
-    }
+    
 
     #harveys-projects {
       color: #008cff;
@@ -102,26 +62,7 @@
       position: relative;
       text-align: center;
     }
-    #github-link {
-      color: #5eff00;
-      position: relative;
-      text-align: center;
-      background-size: cover;
-    }
-    #youtube-link {
-      color: #5eff00;
-      position: relative;
-      text-align: center;
-      background-size: cover;
-      top: -10px;
-    }
-    #email-address {
-      color: #5eff00;
-      position: relative;
-      text-align: center;
-      background-size: cover;
-      top: -25px;
-    }
+    
     #github-icon {
         position: relative;
         display: inline-block;
@@ -160,6 +101,91 @@
       position: relative;
       top: -30px;
       text-align: center;
+    }
+
+    @media (max-width: 768px)
+    {
+      /* Add styling to footer */
+      footer p {
+        margin-top: 150px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      /* Add styling for background */
+      body {
+        /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
+        background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg");
+        background-size: cover;
+        animation: backgroundAnimate 30s linear infinite;
+        overflow: visible;
+      }
+
+      img {
+        width: auto ;
+        max-width: 100% ;
+        height: auto;
+      }
+      #github-link {
+        color: #5eff00;
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        font-size: small;
+      }
+      #youtube-link {
+        color: #5eff00;
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        font-size: small;
+        top: -10px;
+      }
+      #email-address {
+        color: #5eff00;
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        font-size: small;
+        top: -25px;
+      }
+    }
+
+    @media (min-width: 769px) {
+      /* Add styling to footer */
+      footer p {
+        margin-top: 150px;
+        font-size: 20px;
+        text-align: center;
+      }
+      /* Add styling for background */
+      body {
+        /*background: linear-gradient(to bottom, #00aaff, #87CEFA);*/
+        background-image: url("https://images.hdqwalls.com/download/last-sky-light-4k-mt-1920x1080.jpg");
+        background-size: cover;
+        animation: backgroundAnimate 30s linear infinite;
+        overflow: hidden;
+      }
+      #github-link {
+        color: #5eff00;
+        position: relative;
+        text-align: center;
+        background-size: cover;
+      }
+      #youtube-link {
+        color: #5eff00;
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        top: -10px;
+      }
+      #email-address {
+        color: #5eff00;
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        top: -25px;
+      }
     }
 
     @keyframes backgroundAnimate {
