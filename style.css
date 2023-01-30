@@ -54,7 +54,7 @@
     }
     /* Add styling to footer */
 
-    @media (max-width: 480px) {
+    @media (max-width: 720px) {
       footer p {
         margin-top: 350px;
         font-size: 20px;
