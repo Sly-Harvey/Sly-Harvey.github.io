@@ -118,6 +118,7 @@
       color: #ffffff;
       position: relative;
       top: -30px;
+      text-align: center;
     }
 
     @keyframes backgroundAnimate {
