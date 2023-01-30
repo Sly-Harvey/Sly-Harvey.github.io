@@ -15,6 +15,12 @@
     text-decoration: underline;
     color: purple;
     }
+
+    .header {
+      background: url(header.png) 50% no-repeat;
+      background-size: contain
+    }
+
     /* Add styling to center everything */
     .container {
       display: flex;
@@ -76,6 +82,12 @@
       background-size: cover;
       animation: backgroundAnimate 30s linear infinite;
       overflow: hidden;
+    }
+
+    img {
+      width: auto ;
+      max-width: 100% ;
+      height: auto ;
     }
 
     #harveys-projects {
