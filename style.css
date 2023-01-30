@@ -96,12 +96,6 @@
         margin-right: 5px;
         margin-bottom: -5px;
       }
-    #copy {
-      color: #ffffff;
-      position: relative;
-      top: -30px;
-      text-align: center;
-    }
 
     @media (max-width: 768px)
     {
@@ -146,8 +140,15 @@
         position: relative;
         text-align: center;
         background-size: cover;
-        font-size: small;
+        font-size: medium;
         top: -25px;
+      }
+      #copy {
+        color: #ffffff;
+        position: relative;
+        top: -30px;
+        text-align: center;
+        font-size: small;
       }
     }
 
@@ -185,6 +186,12 @@
         text-align: center;
         background-size: cover;
         top: -25px;
+      }
+      #copy {
+        color: #ffffff;
+        position: relative;
+        top: -30px;
+        text-align: center;
       }
     }
 
